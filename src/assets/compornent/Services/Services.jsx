@@ -45,6 +45,8 @@ function Services() {
         {/* Card Section */}
         <div>
           <div
+            data-aos="zoom-in"
+            data-aos-duration="400"
             className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3
           gap-14 md:gap-5 place-items-center"
           >

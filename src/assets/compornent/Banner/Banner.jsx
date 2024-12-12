@@ -8,7 +8,7 @@ function Banner() {
   return (
     <div className="min-h-[550px] py-6 bg-red-50 dark:bg-gray-950">
       <div>
-        <div className="container">
+        <div data-aos="slide-up" data-aos-duration="300" className="container">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {/* Image Section */}
             <div>

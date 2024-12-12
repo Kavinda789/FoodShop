@@ -31,6 +31,9 @@ function Hero() {
           <div className="grid grid-cols-1 sm:grid-cols-2">
             {/* text content section */}
             <div
+              data-aos="zoom-out"
+              data-aos-duration="400"
+              data-aos-once="true"
               className="flex flex-col justify-center gap-4 pt-12
                 sm:pt-0 text-center sm:text-left order-2 sm:order-1"
             >
@@ -59,6 +62,9 @@ function Hero() {
               {/* main image section */}
               <div className="flex justify-center items-center h-[300px] sm:h-[450px] overflow-hidden">
                 <img
+                  data-aos="zoom-out"
+                  data-aos-duration="400"
+                  data-aos-once="true"
                   src={imageId}
                   alt=""
                   className="w-[300px] sm:w-[450px] mx-auto spin"
@@ -72,6 +78,9 @@ function Hero() {
               >
                 {ImageList.map((item) => (
                   <img
+                    data-aos="zoom-out"
+                    data-aos-duration="400"
+                    data-aos-once="true"
                     key={item.id}
                     src={item.img}
                     alt=""
